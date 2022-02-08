@@ -1,3 +1,5 @@
+# implemented by github.com/amirhosseinh77
+
 import numpy as np
 import matplotlib.pyplot as plt
 from elements.model import MultiAgent, FirstOrderMultiAgent
@@ -59,4 +61,3 @@ while True:
     plt.pause(0.01)
 
 plt.show()
-
