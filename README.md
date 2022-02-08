@@ -2,6 +2,8 @@
 This repository contains python implementation of "Flocking for multi-agent dynamic systems: Algorithms and theory" by Olfati-Saber, Reza.
 You can find the article using these links: [IEEE](https://ieeexplore.ieee.org/abstract/document/1605401), [PDF](https://sci-hub.yncjkj.com/10.1109/TAC.2005.864190)
 
+## Algorithm
+The purpose of the algorithm is to provide a common control law to form agents in a triangular shape.
 **The agent model** is a double integrator:
 ```math
 p' = q
