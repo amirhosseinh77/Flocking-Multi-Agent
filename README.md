@@ -6,8 +6,10 @@ You can find the article using these links: [IEEE](https://ieeexplore.ieee.org/a
 The purpose of the algorithm is to provide a common control law to form agents in a triangular shape.
 **The agent model** is a double integrator:
 ```math
-\dot{p} = q \
+\left\{\begin{matrix}
+\dot{p} = q \\
 \dot{q} = u
+\end{matrix}\right.
 ```
 ```p: position, q: velocity```
 
